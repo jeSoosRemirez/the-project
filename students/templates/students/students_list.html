@@ -2,8 +2,9 @@
 {% load static %}
 
 {% block meta_title %}Students{% endblock meta_title%}
-
 {% block title %}Students Base{% endblock title %}
+{% block btn_title %}Add student{% endblock btn_title %}
+
 {% block content%}
 
 <!--Add Student Button-->
@@ -27,8 +28,8 @@
     <tr>
         <td>{{ forloop.counter }}</td>
         <td><img src="{% static student.image %}" height="35" width="35" class="rounded-circle"></td>
-        <td><a title="Edit" href="{% url 'students_edit' 1 %}">{{ student.last_name }}</a></td>
-        <td><a title="Edit" href="{% url 'students_edit' 1 %}">{{ student.first_name }}</a></td>
+        <td><a title="Edit" href="{% url 'students_edit' student.id %}">{{ student.last_name }}</a></td>
+        <td><a title="Edit" href="{% url 'students_edit' student.id %}">{{ student.first_name }}</a></td>
         <td>{{ student.ticket }}</td>
         <td>
             <div class="dropdown">
@@ -36,9 +37,9 @@
                     Action
                 </button>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="{% url 'students_edit' 1 %}">Edit</a>
+                    <a class="dropdown-item" href="{% url 'students_edit' student.id %}">Edit</a>
                     <a class="dropdown-item" href="/journal/1">Attendance</a>
-                    <a class="dropdown-item" href="{% url 'students_delete' 1 %}">Delete</a>
+                    <a class="dropdown-item" href="{% url 'students_delete' student.id %}">Delete</a>
                 </div>
             </div>
         </td>
@@ -47,33 +48,5 @@
     </tbody>
 </table>
 
-<nav aria-label="Page navigation">
-    <ul class="pagination">
-        <li>
-            <a class="page-link" href="#" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-            </a>
-        </li>
-        <li class="page-item">
-            <a class="page-link" href="#">1</a>
-        </li>
-        <li class="page-item">
-            <a class="page-link" href="#">2</a>
-        </li>
-        <li class="page-item">
-            <a class="page-link" href="#">3</a>
-        </li>
-        <li class="page-item">
-            <a class="page-link" href="#">4</a>
-        </li>
-        <li class="page-item">
-            <a class="page-link" href="#">5</a>
-        </li>
-        <li>
-            <a class="page-link" href="#" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
-            </a>
-        </li>
-    </ul>
-</nav>
+
 {% endblock content %}
