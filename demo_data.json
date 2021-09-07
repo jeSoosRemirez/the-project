@@ -1,0 +1,492 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$150000$SZnkwByH09I5$rp6M1pjI/wI5s/xi2/08NvAFwd4ffWHmLayNHioAtKg=",
+        "last_login": "2021-09-06T11:58:38.503Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-08-18T08:13:17.444Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "cwm3mrojvsj30boy9f79tispmdhrkqmh",
+    "fields": {
+        "session_data": "OTE5ZmExMzdlYzI2ZDM1ZjRmNjVmMWY4M2JmNTkzNDFlZjViMTdmZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJkOGNmMWZkYmViMGZjNmIwYTI5MjcwNTU0ZTRmODVhMmVjYjVhYzVhIn0=",
+        "expire_date": "2021-09-01T08:15:48.164Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ekx6ttiyc50a9fuw8yvxmnniiqsxkx8i",
+    "fields": {
+        "session_data": "OTE5ZmExMzdlYzI2ZDM1ZjRmNjVmMWY4M2JmNTkzNDFlZjViMTdmZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJkOGNmMWZkYmViMGZjNmIwYTI5MjcwNTU0ZTRmODVhMmVjYjVhYzVhIn0=",
+        "expire_date": "2021-09-20T11:58:38.505Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ic0cjtjxgcevg7b0pexstaascpza1ood",
+    "fields": {
+        "session_data": "OTE5ZmExMzdlYzI2ZDM1ZjRmNjVmMWY4M2JmNTkzNDFlZjViMTdmZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJkOGNmMWZkYmViMGZjNmIwYTI5MjcwNTU0ZTRmODVhMmVjYjVhYzVhIn0=",
+        "expire_date": "2021-09-01T10:56:36.623Z"
+    }
+},
+{
+    "model": "students.student",
+    "pk": 2,
+    "fields": {
+        "student_group": null,
+        "first_name": "Jim",
+        "last_name": "Root",
+        "middle_name": "",
+        "birthday": "2021-08-18",
+        "photo": "Screenshot_2021-08-18_at_18.05.18.png",
+        "ticket": "617",
+        "notes": ""
+    }
+},
+{
+    "model": "students.student",
+    "pk": 3,
+    "fields": {
+        "student_group": null,
+        "first_name": "Andrey",
+        "last_name": "Chebupel",
+        "middle_name": "",
+        "birthday": "2021-08-18",
+        "photo": "",
+        "ticket": "228",
+        "notes": "742617000027"
+    }
+},
+{
+    "model": "students.student",
+    "pk": 4,
+    "fields": {
+        "student_group": null,
+        "first_name": "Pepe",
+        "last_name": "The Frog",
+        "middle_name": "",
+        "birthday": "2021-08-18",
+        "photo": "papich.png",
+        "ticket": "007",
+        "notes": ""
+    }
+},
+{
+    "model": "students.student",
+    "pk": 5,
+    "fields": {
+        "student_group": null,
+        "first_name": "Test",
+        "last_name": "Aboltus",
+        "middle_name": "",
+        "birthday": "2021-08-18",
+        "photo": "Screenshot_2021-08-10_at_12.16.11.png",
+        "ticket": "123",
+        "notes": ""
+    }
+},
+{
+    "model": "students.student",
+    "pk": 6,
+    "fields": {
+        "student_group": null,
+        "first_name": "Test",
+        "last_name": "Amogus 2",
+        "middle_name": "",
+        "birthday": "2021-08-18",
+        "photo": "kapusta_wqsMwdS.png",
+        "ticket": "321",
+        "notes": ""
+    }
+},
+{
+    "model": "students.student",
+    "pk": 7,
+    "fields": {
+        "student_group": null,
+        "first_name": "Joey",
+        "last_name": "Jordison",
+        "middle_name": "",
+        "birthday": "2021-08-28",
+        "photo": "",
+        "ticket": "515",
+        "notes": ""
+    }
+},
+{
+    "model": "students.student",
+    "pk": 8,
+    "fields": {
+        "student_group": null,
+        "first_name": "Dunno",
+        "last_name": "IDK",
+        "middle_name": "",
+        "birthday": "2021-08-28",
+        "photo": "",
+        "ticket": "001",
+        "notes": ""
+    }
+},
+{
+    "model": "students.group",
+    "pk": 1,
+    "fields": {
+        "title": "PE",
+        "leader": 2,
+        "notes": ""
+    }
+},
+{
+    "model": "students.group",
+    "pk": 2,
+    "fields": {
+        "title": "Bebebe",
+        "leader": 3,
+        "notes": "What?"
+    }
+},
+{
+    "model": "students.group",
+    "pk": 3,
+    "fields": {
+        "title": "Whomstdve",
+        "leader": 8,
+        "notes": ""
+    }
+},
+{
+    "model": "students.group",
+    "pk": 4,
+    "fields": {
+        "title": "Lolich",
+        "leader": 4,
+        "notes": ""
+    }
+},
+{
+    "model": "students.group",
+    "pk": 5,
+    "fields": {
+        "title": "Cum Hostage",
+        "leader": 5,
+        "notes": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-08-18T08:37:14.532Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "students",
+            "student"
+        ],
+        "object_id": "3",
+        "object_repr": "Andrey Chebupel",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-08-18T08:38:04.908Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "students",
+            "student"
+        ],
+        "object_id": "4",
+        "object_repr": "Pepe The Frog",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-08-18T11:11:27.147Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "students",
+            "student"
+        ],
+        "object_id": "4",
+        "object_repr": "Pepe The Frog",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-08-18T11:11:30.326Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "students",
+            "student"
+        ],
+        "object_id": "3",
+        "object_repr": "Andrey Chebupel",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-08-18T11:11:47.182Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "students",
+            "student"
+        ],
+        "object_id": "2",
+        "object_repr": "Jim Root",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-08-18T11:15:09.052Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "students",
+            "student"
+        ],
+        "object_id": "3",
+        "object_repr": "Andrey Chebupel",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-08-18T11:16:07.726Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "students",
+            "student"
+        ],
+        "object_id": "4",
+        "object_repr": "Pepe The Frog",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-08-18T11:16:14.587Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "students",
+            "student"
+        ],
+        "object_id": "2",
+        "object_repr": "Jim Root",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2021-08-18T11:39:24.400Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "students",
+            "student"
+        ],
+        "object_id": "5",
+        "object_repr": "Test Aboltus",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2021-08-18T11:39:46.285Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "students",
+            "student"
+        ],
+        "object_id": "6",
+        "object_repr": "Test Amogus 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2021-08-18T15:05:29.227Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "students",
+            "student"
+        ],
+        "object_id": "2",
+        "object_repr": "Jim Root",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2021-08-28T10:24:47.966Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "students",
+            "student"
+        ],
+        "object_id": "7",
+        "object_repr": "Joey Jordison",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2021-08-28T10:25:07.076Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "students",
+            "student"
+        ],
+        "object_id": "8",
+        "object_repr": "Dunno IDK",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2021-09-07T06:35:38.854Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "students",
+            "group"
+        ],
+        "object_id": "2",
+        "object_repr": "Bebebe (Andrey Chebupel)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2021-09-07T06:35:51.758Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "students",
+            "group"
+        ],
+        "object_id": "3",
+        "object_repr": "Whomstdve (Dunno IDK)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2021-09-07T06:35:59.076Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "students",
+            "group"
+        ],
+        "object_id": "4",
+        "object_repr": "Lolich (Pepe The Frog)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2021-09-07T06:36:11.394Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "students",
+            "group"
+        ],
+        "object_id": "5",
+        "object_repr": "Cum Hostage (Test Aboltus)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
