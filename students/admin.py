@@ -1,6 +1,6 @@
 from django.contrib import admin
-from .models import Student, Group
+from .templates.models import students_model, groups_model
 
 
-admin.site.register(Student)
-admin.site.register(Group)
+admin.site.register(students_model.Student)
+admin.site.register(groups_model.Group)
