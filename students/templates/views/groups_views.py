@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-from students.models import Group
+from ..models.groups_model import Group
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 
